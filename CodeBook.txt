@@ -1,0 +1,91 @@
+For each record it is provided:
+======================================
+
+- Average values of mean and standard deviation for each measurement from the accelerometer (total acceleration) and the estimated body acceleration
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+
+Notes: 
+======
+- Features are normalized and bounded within [-1,1].
+- Each feature vector is a row on the text file.
+
+List of variables:
+==================
+"subject"
+	Subject, who carried out an experiment
+	Values: Number from 1 to 30
+
+"activityLabel"
+	Label for performed activity
+	Values: 'WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS', 'SITTING', 'STANDING', 'LAYING'	
+
+These features contains average values of standart deviation features or mean features for time/frequency domain gravity/body signals from accelerometer for X, Y and Z axis
+Values: floating number from -1 to 1
+
+"timeBodyAccelerometerMeanValue-X"                  
+"timeBodyAccelerometerMeanValue-Y"                  
+"timeBodyAccelerometerMeanValue-Z"        
+"timeBodyAccelerometerStandartDeviation-X"          
+"timeBodyAccelerometerStandartDeviation-Y"          
+"timeBodyAccelerometerStandartDeviation-Z"          
+"timeGravityAccelerometerMeanValue-X"               
+"timeGravityAccelerometerMeanValue-Y"               
+"timeGravityAccelerometerMeanValue-Z"   
+"timeGravityAccelerometerStandartDeviation-X"       
+"timeGravityAccelerometerStandartDeviation-Y"       
+"timeGravityAccelerometerStandartDeviation-Z"       
+"timeBodyAccelerometerJerkMeanValue-X"              
+"timeBodyAccelerometerJerkMeanValue-Y"              
+"timeBodyAccelerometerJerkMeanValue-Z"              
+"timeBodyAccelerometerJerkStandartDeviation-X"      
+"timeBodyAccelerometerJerkStandartDeviation-Y"      
+"timeBodyAccelerometerJerkStandartDeviation-Z"      
+"timeBodyGyroscopeMeanValue-X"                      
+"timeBodyGyroscopeMeanValue-Y"                      
+"timeBodyGyroscopeMeanValue-Z"                      
+"timeBodyGyroscopeStandartDeviation-X"              
+"timeBodyGyroscopeStandartDeviation-Y"              
+"timeBodyGyroscopeStandartDeviation-Z"              
+"timeBodyGyroscopeJerkMeanValue-X"                  
+"timeBodyGyroscopeJerkMeanValue-Y"                  
+"timeBodyGyroscopeJerkMeanValue-Z"                  
+"timeBodyGyroscopeJerkStandartDeviation-X"          
+"timeBodyGyroscopeJerkStandartDeviation-Y"          
+"timeBodyGyroscopeJerkStandartDeviation-Z" 
+"timeBodyAccelerometerMagMeanValue"                 
+"timeBodyAccelerometerMagStandartDeviation"         
+"timeGravityAccelerometerMagMeanValue"              
+"timeGravityAccelerometerMagStandartDeviation"      
+"timeBodyAccelerometerJerkMagMeanValue"             
+"timeBodyAccelerometerJerkMagStandartDeviation"     
+"timeBodyGyroscopeMagMeanValue"                     
+"timeBodyGyroscopeMagStandartDeviation"             
+"timeBodyGyroscopeJerkMagMeanValue"                 
+"timeBodyGyroscopeJerkMagStandartDeviation"         
+"frequencyBodyAccelerometerMeanValue-X"             
+"frequencyBodyAccelerometerMeanValue-Y"             
+"frequencyBodyAccelerometerMeanValue-Z"             
+"frequencyBodyAccelerometerStandartDeviation-X"     
+"frequencyBodyAccelerometerStandartDeviation-Y"     
+"frequencyBodyAccelerometerStandartDeviation-Z"     
+"frequencyBodyAccelerometerJerkMeanValue-X"         
+"frequencyBodyAccelerometerJerkMeanValue-Y"         
+"frequencyBodyAccelerometerJerkMeanValue-Z"         
+"frequencyBodyAccelerometerJerkStandartDeviation-X" 
+"frequencyBodyAccelerometerJerkStandartDeviation-Y" 
+"frequencyBodyAccelerometerJerkStandartDeviation-Z" 
+"frequencyBodyGyroscopeMeanValue-X"                 
+"frequencyBodyGyroscopeMeanValue-Y"                 
+"frequencyBodyGyroscopeMeanValue-Z"                 
+"frequencyBodyGyroscopeStandartDeviation-X"         
+"frequencyBodyGyroscopeStandartDeviation-Y"         
+"frequencyBodyGyroscopeStandartDeviation-Z"         
+"frequencyBodyAccelerometerMagMeanValue"            
+"frequencyBodyAccelerometerMagStandartDeviation"    
+"frequencyBodyAccelerometerJerkMagMeanValue"        
+"frequencyBodyAccelerometerJerkMagStandartDeviation"
+"frequencyBodyGyroscopeMagMeanValue"                
+"frequencyBodyGyroscopeMagStandartDeviation"        
+"frequencyBodyGyroscopeJerkMagMeanValue"            
+"frequencyBodyGyroscopeJerkMagStandartDeviation"
